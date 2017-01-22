@@ -1,8 +1,13 @@
 {
     "name": "impresspages/plugin-smtp-config",
     "description": "ImpressPages SMTPconfig plugin",
-    "require": {
-        "php": "^5.3.3 || ^7.0",
-        "another-vendor/package": "1.*"
-    }
+    "version": "1.02",
+    "autoload": {
+        "psr-4": {"Plugin\\SMTPconfig\\": "/"}
+    },
+    "minimum-stability": "stable",
+    "license": [
+        "MIT",
+        "GPL-3.0+"
+    ]
 }
